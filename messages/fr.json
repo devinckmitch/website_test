@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "golf": "Golf",
+    "greenFees": "Green Fees",
+    "club": "Club",
+    "hotel": "Hôtel",
+    "restaurant": "Restaurant",
+    "proShop": "Pro Shop",
+    "news": "Actualités",
+    "events": "Événements",
+    "contact": "Contact",
+    "members": "Membres",
+    "bookNow": "Réserver"
+  },
+  "hero": {
+    "title": "Royal Zoute Golf Club",
+    "tagline": "Une expérience golfique royale sur la côte belge",
+    "cta": "Réservez votre Green Fee",
+    "discover": "Découvrir le Club",
+    "since": "Fondé en 1908 · Knokke, Belgique"
+  },
+  "booking": {
+    "title": "Réservez votre Heure de Départ",
+    "subtitle": "Jouez sur l'un de nos deux prestigieux parcours. Réservez en ligne rapidement, facilement et recevez une confirmation immédiate.",
+    "championship": "Parcours Championship",
+    "executive": "Parcours Executive",
+    "championshipDesc": "18 trous · Par 72 · 6.200m",
+    "executiveDesc": "18 trous · Par 64 · 3.550m",
+    "bookCta": "Réserver en Ligne",
+    "callCta": "Réserver par Téléphone",
+    "phone": "+32 (0)50 60 12 80"
+  },
+  "courses": {
+    "title": "Nos Parcours",
+    "subtitle": "Deux parcours exceptionnels sur 80 hectares de paysage naturel à Knokke",
+    "championship": {
+      "name": "Parcours Championship",
+      "description": "Notre parcours principal de 18 trous offre une expérience stimulante pour les golfeurs de tous niveaux. Avec son design stratégique et son cadre magnifique, c'est l'un des parcours les plus prisés de Belgique.",
+      "par": "Par 72",
+      "length": "6.200 mètres",
+      "holes": "18 trous"
+    },
+    "executive": {
+      "name": "Parcours Executive",
+      "description": "Le parcours Executive est idéal pour une partie plus rapide ou pour les golfeurs souhaitant perfectionner leur jeu. Une combinaison parfaite de précision technique et d'élégance.",
+      "par": "Par 64",
+      "length": "3.550 mètres",
+      "holes": "18 trous"
+    }
+  },
+  "facilities": {
+    "title": "Installations & Services",
+    "subtitle": "Tout ce dont vous avez besoin pour une journée de golf inoubliable",
+    "hotel": {
+      "name": "Hôtel Boutique",
+      "description": "10 chambres et suites exclusives dans notre villa historique"
+    },
+    "restaurant": {
+      "name": "Restaurant & Bar",
+      "description": "Cuisine raffinée avec vue sur le parcours"
+    },
+    "proShop": {
+      "name": "Pro Shop",
+      "description": "Grandes marques et conseils professionnels"
+    },
+    "drivingRange": {
+      "name": "Driving Range",
+      "description": "Installations d'entraînement étendues"
+    }
+  },
+  "greenFees": {
+    "title": "Green Fees",
+    "subtitle": "Jouez sur l'un des clubs de golf les plus prestigieux de Belgique",
+    "bookTitle": "Réserver Directement",
+    "bookSubtitle": "Sélectionnez votre date et réservez votre heure de départ en ligne. Vous recevrez une confirmation immédiate par e-mail.",
+    "championship": "Parcours Championship (18 trous)",
+    "executive": "Parcours Executive (18 trous)",
+    "weekday": "Jour de semaine",
+    "weekend": "Week-end & Jour férié",
+    "includes": "Inclus",
+    "includesItems": ["Green fee", "Utilisation des installations d'entraînement", "Accès aux vestiaires"],
+    "faq": "Questions Fréquentes",
+    "faqItems": [
+      {
+        "q": "La réservation est-elle obligatoire ?",
+        "a": "Oui, réserver une heure de départ est obligatoire. Cela peut se faire en ligne via notre système de réservation ou par téléphone."
+      },
+      {
+        "q": "Quelle est la politique d'annulation ?",
+        "a": "Annulation gratuite jusqu'à 48 heures avant votre heure de départ. Au-delà, des frais d'annulation de 50% s'appliquent."
+      },
+      {
+        "q": "Les équipements de location sont-ils disponibles ?",
+        "a": "Oui, voiturettes et chariots sont disponibles à la location au pro shop. Les équipements de golf sont disponibles sur demande."
+      }
+    ],
+    "bookNow": "Réserver votre Green Fee"
+  },
+  "club": {
+    "title": "Le Club",
+    "subtitle": "Une riche tradition golfique depuis 1908",
+    "history": "Histoire",
+    "historyText": "Le Royal Zoute Golf Club a été fondé en 1908 dans la prestigieuse commune côtière de Knokke. Notre iconique maison de club 'Villa Magere Schorre' accueille membres et visiteurs depuis plus d'un siècle. Le club a reçu son titre royal et est devenu l'un des clubs de golf les plus respectés de Belgique et d'Europe.",
+    "clubhouse": "Le Clubhouse",
+    "clubhouseText": "La Villa Magere Schorre, notre clubhouse de style anglais, est un joyau architectural qui reflète parfaitement l'élégance et la tradition du club."
+  },
+  "hotel": {
+    "title": "Hôtel Boutique",
+    "subtitle": "10 chambres et suites exclusives au cœur du club",
+    "description": "Séjournez dans notre villa historique et profitez d'avantages exclusifs en tant que client de l'hôtel, dont un green fee offert par nuit.",
+    "benefit": "Green fee inclus par nuit",
+    "bookRoom": "Réserver une Chambre"
+  },
+  "restaurant": {
+    "title": "Restaurant & Bar",
+    "subtitle": "Cuisine raffinée dans un cadre unique",
+    "description": "Notre restaurant propose des plats saisonniers préparés avec des produits locaux, avec une belle vue sur le parcours de golf. Le bistro est ouvert à tous les visiteurs."
+  },
+  "news": {
+    "title": "Actualités & Mises à jour",
+    "subtitle": "Restez informé des dernières nouvelles du club",
+    "readMore": "Lire la suite",
+    "allNews": "Toutes les actualités"
+  },
+  "events": {
+    "title": "Événements",
+    "subtitle": "Tournois, compétitions et événements du club",
+    "allEvents": "Tous les événements"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Nous sommes là pour vous aider",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "hours": "Heures d'ouverture",
+    "hoursValue": "Quotidien 07h00 - 20h00 (saisonnier)",
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer"
+    }
+  },
+  "footer": {
+    "description": "Royal Zoute Golf Club — Une expérience golfique royale sur la côte belge depuis 1908.",
+    "quickLinks": "Liens rapides",
+    "legal": "© 2025 Royal Zoute Golf Club. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  }
+}

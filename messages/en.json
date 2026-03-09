@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "golf": "Golf",
+    "greenFees": "Green Fees",
+    "club": "Club",
+    "hotel": "Hotel",
+    "restaurant": "Restaurant",
+    "proShop": "Pro Shop",
+    "news": "News",
+    "events": "Events",
+    "contact": "Contact",
+    "members": "Members",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Royal Zoute Golf Club",
+    "tagline": "A Royal Golfing Experience on the Belgian Coast",
+    "cta": "Reserve your Green Fee",
+    "discover": "Discover the Club",
+    "since": "Founded 1908 · Knokke, Belgium"
+  },
+  "booking": {
+    "title": "Reserve your Tee Time",
+    "subtitle": "Play on one of our two prestigious courses. Book online quickly, easily and receive instant confirmation.",
+    "championship": "Championship Course",
+    "executive": "Executive Course",
+    "championshipDesc": "18 holes · Par 72 · 6,200m",
+    "executiveDesc": "18 holes · Par 64 · 3,550m",
+    "bookCta": "Book Online Now",
+    "callCta": "Book by Phone",
+    "phone": "+32 (0)50 60 12 80"
+  },
+  "courses": {
+    "title": "Our Courses",
+    "subtitle": "Two exceptional courses across 80 hectares of natural landscape in Knokke",
+    "championship": {
+      "name": "Championship Course",
+      "description": "Our main 18-hole course offers a challenging experience for golfers of all levels. With its strategic design and beautiful setting, this is one of the most coveted courses in Belgium.",
+      "par": "Par 72",
+      "length": "6,200 metres",
+      "holes": "18 holes"
+    },
+    "executive": {
+      "name": "Executive Course",
+      "description": "The Executive course is ideal for a faster round or for golfers wishing to refine their game. A perfect combination of technical precision and elegance.",
+      "par": "Par 64",
+      "length": "3,550 metres",
+      "holes": "18 holes"
+    }
+  },
+  "facilities": {
+    "title": "Facilities & Services",
+    "subtitle": "Everything you need for an unforgettable day of golf",
+    "hotel": {
+      "name": "Boutique Hotel",
+      "description": "10 exclusive rooms and suites in our historic villa"
+    },
+    "restaurant": {
+      "name": "Restaurant & Bar",
+      "description": "Fine dining with views over the course"
+    },
+    "proShop": {
+      "name": "Pro Shop",
+      "description": "Top brands and professional advice"
+    },
+    "drivingRange": {
+      "name": "Driving Range",
+      "description": "Extensive practice facilities"
+    }
+  },
+  "greenFees": {
+    "title": "Green Fees",
+    "subtitle": "Play on one of Belgium's most prestigious golf clubs",
+    "bookTitle": "Book Directly",
+    "bookSubtitle": "Select your date and book your tee time online. You will receive instant confirmation by email.",
+    "championship": "Championship Course (18 holes)",
+    "executive": "Executive Course (18 holes)",
+    "weekday": "Weekday",
+    "weekend": "Weekend & Public Holiday",
+    "includes": "Includes",
+    "includesItems": ["Green fee", "Use of practice facilities", "Locker room access"],
+    "faq": "Frequently Asked Questions",
+    "faqItems": [
+      {
+        "q": "Is a reservation mandatory?",
+        "a": "Yes, booking a tee time is mandatory. This can be done online via our booking system or by phone."
+      },
+      {
+        "q": "What is the cancellation policy?",
+        "a": "Free cancellation up to 48 hours before your tee time. After that, a 50% cancellation fee applies."
+      },
+      {
+        "q": "Are rental equipment available?",
+        "a": "Yes, buggies and trolleys are available for hire from the pro shop. Golf sets are available on request."
+      }
+    ],
+    "bookNow": "Book your Green Fee"
+  },
+  "club": {
+    "title": "The Club",
+    "subtitle": "A rich golfing tradition since 1908",
+    "history": "History",
+    "historyText": "Royal Zoute Golf Club was founded in 1908 in the prestigious coastal town of Knokke. Our iconic clubhouse 'Villa Magere Schorre' has welcomed members and guests for over a century. The club received its royal designation and has grown to become one of the most respected golf clubs in Belgium and Europe.",
+    "clubhouse": "The Clubhouse",
+    "clubhouseText": "Villa Magere Schorre, our English-style clubhouse, is an architectural gem that perfectly reflects the elegance and tradition of the club."
+  },
+  "hotel": {
+    "title": "Boutique Hotel",
+    "subtitle": "10 exclusive rooms and suites at the heart of the club",
+    "description": "Stay in our historic villa and enjoy exclusive benefits as a hotel guest, including a complimentary green fee per night.",
+    "benefit": "Green fee included per night",
+    "bookRoom": "Book a Room"
+  },
+  "restaurant": {
+    "title": "Restaurant & Bar",
+    "subtitle": "Fine dining in a unique setting",
+    "description": "Our restaurant offers seasonal dishes prepared with local produce, with beautiful views over the golf course. The bistro is open to all visitors."
+  },
+  "news": {
+    "title": "News & Updates",
+    "subtitle": "Stay up to date with the latest club news",
+    "readMore": "Read more",
+    "allNews": "All news articles"
+  },
+  "events": {
+    "title": "Events",
+    "subtitle": "Tournaments, competitions and club events",
+    "allEvents": "All events"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We are here to help",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Opening Hours",
+    "hoursValue": "Daily 07:00 - 20:00 (seasonal)",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "footer": {
+    "description": "Royal Zoute Golf Club — A royal golfing experience on the Belgian coast since 1908.",
+    "quickLinks": "Quick Links",
+    "legal": "© 2025 Royal Zoute Golf Club. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}
