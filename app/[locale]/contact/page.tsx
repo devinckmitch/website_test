@@ -14,18 +14,18 @@ function ContactPageContent() {
     <div className="min-h-screen">
       {/* Hero */}
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-center text-white"
       >
-        <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-6">
+        <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-6">
           Royal Zoute Golf Club
         </p>
         <div
-          style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+          style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
           className="mx-auto mb-8"
         />
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-6xl font-light mb-6"
         >
           {t('title')}
@@ -34,14 +34,14 @@ function ContactPageContent() {
       </div>
 
       {/* Content */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-24">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Contact info */}
             <div>
-              <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-8" />
+              <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} className="mb-8" />
               <h2
-                style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                 className="text-3xl font-light mb-10"
               >
                 Contactgegevens
@@ -50,7 +50,7 @@ function ContactPageContent() {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-gray-400 text-xs tracking-[0.2em] uppercase mb-2">{t('address')}</h3>
-                  <p style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }} className="text-lg font-light">
+                  <p style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }} className="text-lg font-light">
                     Caddiespad 14<br />
                     8300 Knokke-Heist<br />
                     België
@@ -61,7 +61,7 @@ function ContactPageContent() {
                   <h3 className="text-gray-400 text-xs tracking-[0.2em] uppercase mb-2">{t('phone')}</h3>
                   <a
                     href="tel:+3250601280"
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-lg font-light hover:opacity-70 transition-opacity"
                   >
                     +32 (0)50 60 12 80
@@ -72,7 +72,7 @@ function ContactPageContent() {
                   <h3 className="text-gray-400 text-xs tracking-[0.2em] uppercase mb-2">{t('email')}</h3>
                   <a
                     href="mailto:info@rzgc.be"
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-lg font-light hover:opacity-70 transition-opacity"
                   >
                     info@rzgc.be
@@ -81,7 +81,7 @@ function ContactPageContent() {
 
                 <div>
                   <h3 className="text-gray-400 text-xs tracking-[0.2em] uppercase mb-2">{t('hours')}</h3>
-                  <p style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }} className="text-lg font-light">
+                  <p style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }} className="text-lg font-light">
                     {t('hoursValue')}
                   </p>
                 </div>
@@ -89,7 +89,7 @@ function ContactPageContent() {
 
               {/* Map placeholder */}
               <div
-                style={{ backgroundColor: '#1a3d2b', marginTop: '2.5rem' }}
+                style={{ backgroundColor: '#111111', marginTop: '2.5rem' }}
                 className="h-48 flex items-center justify-center"
               >
                 <p className="text-white/30 text-sm">Kaart — Knokke, België</p>
@@ -98,9 +98,9 @@ function ContactPageContent() {
 
             {/* Contact form */}
             <div>
-              <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-8" />
+              <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} className="mb-8" />
               <h2
-                style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                 className="text-3xl font-light mb-10"
               >
                 Stuur een bericht
@@ -114,7 +114,7 @@ function ContactPageContent() {
                     </label>
                     <input
                       type="text"
-                      className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#1a3d2b] transition-colors"
+                      className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#111111] transition-colors"
                       placeholder="Jan Janssen"
                     />
                   </div>
@@ -124,7 +124,7 @@ function ContactPageContent() {
                     </label>
                     <input
                       type="email"
-                      className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#1a3d2b] transition-colors"
+                      className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#111111] transition-colors"
                       placeholder="jan@voorbeeld.be"
                     />
                   </div>
@@ -135,7 +135,7 @@ function ContactPageContent() {
                   </label>
                   <input
                     type="text"
-                    className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#1a3d2b] transition-colors"
+                    className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#111111] transition-colors"
                     placeholder="Green fee reservatie / Lidmaatschap / ..."
                   />
                 </div>
@@ -145,14 +145,14 @@ function ContactPageContent() {
                   </label>
                   <textarea
                     rows={6}
-                    className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#1a3d2b] transition-colors resize-none"
+                    className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-[#111111] transition-colors resize-none"
                     placeholder="Uw bericht..."
                   />
                 </div>
                 <button
                   type="submit"
-                  style={{ backgroundColor: '#1a3d2b', color: 'white' }}
-                  className="w-full py-4 text-xs font-medium tracking-[0.12em] uppercase hover:bg-[#2d5a3d] transition-colors duration-200"
+                  style={{ backgroundColor: '#111111', color: 'white' }}
+                  className="w-full py-4 text-xs font-medium tracking-[0.12em] uppercase hover:bg-[#1a1a1a] transition-colors duration-200"
                 >
                   {t('form.send')}
                 </button>

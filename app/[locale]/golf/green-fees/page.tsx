@@ -24,18 +24,18 @@ function GreenFeesContent() {
     <div className="min-h-screen">
       {/* Hero */}
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-center text-white"
       >
-        <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-6">
+        <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-6">
           Royal Zoute Golf Club
         </p>
         <div
-          style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+          style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
           className="mx-auto mb-8"
         />
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-6xl font-light mb-6"
         >
           {t('title')}
@@ -44,18 +44,18 @@ function GreenFeesContent() {
       </div>
 
       {/* Main booking CTA — prominent, above the fold after header */}
-      <div style={{ backgroundColor: '#c9a84c' }} className="py-8">
+      <div style={{ backgroundColor: '#E41F13' }} className="py-8">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <div style={{ fontFamily: 'Cormorant Garamond, serif' }} className="text-xl font-light">
+            <div style={{ fontFamily: 'FreightNeo, Georgia, serif' }} className="text-xl font-light">
               {t('bookTitle')}
             </div>
             <a
               href="https://www.igolf.be"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ backgroundColor: '#1a3d2b', color: 'white' }}
-              className="px-8 py-3 text-xs font-medium tracking-[0.12em] uppercase hover:bg-[#2d5a3d] transition-colors duration-200 whitespace-nowrap"
+              style={{ backgroundColor: '#111111', color: 'white' }}
+              className="px-8 py-3 text-xs font-medium tracking-[0.12em] uppercase hover:bg-[#1a1a1a] transition-colors duration-200 whitespace-nowrap"
             >
               {t('bookNow')} →
             </a>
@@ -64,15 +64,15 @@ function GreenFeesContent() {
       </div>
 
       {/* Rates table */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-20">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div
-              style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }}
+              style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }}
               className="mx-auto mb-6"
             />
             <h2
-              style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+              style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
               className="text-3xl md:text-4xl font-light"
             >
               Tarieven 2025
@@ -83,7 +83,7 @@ function GreenFeesContent() {
           <div className="bg-white shadow-sm overflow-hidden">
             {/* Header row */}
             <div
-              style={{ backgroundColor: '#1a3d2b' }}
+              style={{ backgroundColor: '#111111' }}
               className="grid grid-cols-3 gap-0"
             >
               <div className="p-4 text-white/80 text-xs font-medium tracking-widest uppercase">
@@ -105,10 +105,10 @@ function GreenFeesContent() {
                 style={{ backgroundColor: i % 2 === 0 ? 'white' : '#fafaf8' }}
               >
                 <div className="p-4 text-sm text-gray-700">{rate.category}</div>
-                <div className="p-4 text-center font-medium" style={{ color: '#1a3d2b' }}>
+                <div className="p-4 text-center font-medium" style={{ color: '#111111' }}>
                   € {rate.weekday}
                 </div>
-                <div className="p-4 text-center font-medium border-l border-gray-100" style={{ color: '#1a3d2b' }}>
+                <div className="p-4 text-center font-medium border-l border-gray-100" style={{ color: '#111111' }}>
                   € {rate.weekend}
                 </div>
               </div>
@@ -118,7 +118,7 @@ function GreenFeesContent() {
           {/* Includes */}
           <div className="mt-10">
             <h3
-              style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+              style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
               className="text-xl font-light mb-4"
             >
               {t('includes')}
@@ -127,7 +127,7 @@ function GreenFeesContent() {
               {['Greenfee', 'Gebruik van oefenfaciliteiten', 'Locker room toegang'].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-gray-600 text-sm">
                   <div
-                    style={{ backgroundColor: '#c9a84c' }}
+                    style={{ backgroundColor: '#E41F13' }}
                     className="w-1.5 h-1.5 rounded-full flex-shrink-0"
                   />
                   {item}
@@ -139,14 +139,14 @@ function GreenFeesContent() {
       </section>
 
       {/* Book Now section */}
-      <section style={{ backgroundColor: '#1a3d2b' }} className="py-20">
+      <section style={{ backgroundColor: '#111111' }} className="py-20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <div
-            style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+            style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
             className="mx-auto mb-8"
           />
           <h2
-            style={{ fontFamily: 'Cormorant Garamond, serif' }}
+            style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
             className="text-white text-4xl font-light mb-6"
           >
             {t('bookTitle')}
@@ -160,7 +160,7 @@ function GreenFeesContent() {
               href="https://www.igolf.be"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
+              style={{ backgroundColor: '#E41F13', color: '#ffffff' }}
               className="px-10 py-4 text-sm font-medium tracking-[0.12em] uppercase hover:opacity-90 transition-opacity duration-200"
             >
               {t('bookNow')} →
@@ -177,15 +177,15 @@ function GreenFeesContent() {
       </section>
 
       {/* FAQ */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-20">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <div
-              style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }}
+              style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }}
               className="mx-auto mb-6"
             />
             <h2
-              style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+              style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
               className="text-3xl font-light"
             >
               {t('faq')}
@@ -213,7 +213,7 @@ function GreenFeesContent() {
             ].map(({ q, a }) => (
               <div key={q} className="bg-white p-6 shadow-sm">
                 <h3
-                  style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                  style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                   className="text-lg font-light mb-3"
                 >
                   {q}

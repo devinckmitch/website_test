@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 
 export default function Footer() {
@@ -18,37 +19,51 @@ export default function Footer() {
   ]
 
   return (
-    <footer style={{ backgroundColor: '#1a3d2b' }} className="text-white">
-      {/* Gold divider */}
-      <div style={{ backgroundColor: '#c9a84c', height: '1px' }} />
+    <footer className="text-white" style={{ backgroundColor: '#111111' }}>
+      {/* Red top border */}
+      <div style={{ backgroundColor: '#E41F13', height: '3px' }} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+
           {/* Brand */}
           <div>
-            <div
-              style={{ fontFamily: 'Cormorant Garamond, serif' }}
-              className="text-2xl font-light tracking-[0.15em] uppercase mb-4"
-            >
-              <span style={{ color: '#c9a84c' }}>Royal Zoute</span>
-              <span className="block text-sm tracking-[0.3em] font-light opacity-70">
-                Golf Club
-              </span>
-            </div>
-            <p className="text-white/60 text-sm leading-relaxed">{t('description')}</p>
-            <div className="mt-6">
-              <p className="text-white/50 text-xs">Caddiespad 14</p>
-              <p className="text-white/50 text-xs">8300 Knokke-Heist, België</p>
-              <p className="text-white/50 text-xs mt-1">+32 (0)50 60 12 80</p>
-              <p className="text-white/50 text-xs">info@rzgc.be</p>
+            <Link href={`/${locale}`} className="flex items-center gap-3 mb-6">
+              <Image
+                src="/images/logo/rzgc-logo.png"
+                alt="Royal Zoute Golf Club"
+                width={48}
+                height={48}
+                className="object-contain"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
+              <Image
+                src="/images/logo/rzgc-logo-text.png"
+                alt="Royal Zoute Golf Club"
+                width={150}
+                height={38}
+                className="object-contain"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
+            </Link>
+            <p className="text-white/50 text-sm leading-relaxed mb-6">{t('description')}</p>
+            <div className="space-y-1">
+              <p className="text-white/40 text-xs">Caddiespad 14</p>
+              <p className="text-white/40 text-xs">8300 Knokke-Heist, België</p>
+              <a href="tel:+3250601280" className="block text-white/40 text-xs hover:text-white/70 transition-colors mt-2">
+                +32 (0)50 60 12 80
+              </a>
+              <a href="mailto:info@rzgc.be" className="block text-white/40 text-xs hover:text-white/70 transition-colors">
+                info@rzgc.be
+              </a>
             </div>
           </div>
 
           {/* Quick links */}
           <div>
             <h3
-              style={{ fontFamily: 'Cormorant Garamond, serif', color: '#c9a84c' }}
-              className="text-lg font-light tracking-wider mb-6 uppercase"
+              className="text-xs font-bold tracking-[0.2em] uppercase mb-6"
+              style={{ color: '#E41F13' }}
             >
               {t('quickLinks')}
             </h3>
@@ -57,7 +72,7 @@ export default function Footer() {
                 <Link
                   key={key}
                   href={`/${locale}${href}`}
-                  className="block text-white/60 hover:text-white text-sm tracking-wide transition-colors duration-200"
+                  className="block text-white/50 hover:text-white text-sm tracking-wide transition-colors duration-200"
                 >
                   {tNav(key)}
                 </Link>
@@ -68,18 +83,18 @@ export default function Footer() {
           {/* Book */}
           <div>
             <h3
-              style={{ fontFamily: 'Cormorant Garamond, serif', color: '#c9a84c' }}
-              className="text-lg font-light tracking-wider mb-6 uppercase"
+              className="text-xs font-bold tracking-[0.2em] uppercase mb-6"
+              style={{ color: '#E41F13' }}
             >
               Reserveer
             </h3>
-            <p className="text-white/60 text-sm leading-relaxed mb-6">
+            <p className="text-white/50 text-sm leading-relaxed mb-6">
               Reserveer uw green fee online of neem contact op met ons pro shop team.
             </p>
             <Link
               href={`/${locale}/golf/green-fees`}
-              style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
-              className="inline-block px-6 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
+              className="inline-block text-white px-6 py-3 text-xs font-bold tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
+              style={{ backgroundColor: '#E41F13' }}
             >
               {tNav('bookNow')}
             </Link>
@@ -88,12 +103,12 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-white/40 text-xs">{t('legal')}</p>
+          <p className="text-white/30 text-xs">{t('legal')}</p>
           <div className="flex gap-6">
-            <Link href="#" className="text-white/40 hover:text-white/60 text-xs transition-colors">
+            <Link href="#" className="text-white/30 hover:text-white/60 text-xs transition-colors">
               {t('privacy')}
             </Link>
-            <Link href="#" className="text-white/40 hover:text-white/60 text-xs transition-colors">
+            <Link href="#" className="text-white/30 hover:text-white/60 text-xs transition-colors">
               {t('terms')}
             </Link>
           </div>

@@ -11,14 +11,14 @@ export default function HeroSection() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{ backgroundColor: '#1a3d2b' }}
+      style={{ backgroundColor: '#111111' }}
     >
       {/* Background gradient overlay — replace with actual course photo */}
       <div
         className="absolute inset-0"
         style={{
           background:
-            'linear-gradient(135deg, #0d2619 0%, #1a3d2b 40%, #2d5a3d 70%, #1a3d2b 100%)',
+            'linear-gradient(135deg, #000000 0%, #111111 40%, #1a1a1a 70%, #111111 100%)',
         }}
       />
 
@@ -33,11 +33,11 @@ export default function HeroSection() {
       {/* Decorative gold lines */}
       <div
         className="absolute top-1/2 left-8 md:left-16 -translate-y-1/2"
-        style={{ width: '1px', height: '120px', backgroundColor: '#c9a84c', opacity: 0.4 }}
+        style={{ width: '1px', height: '120px', backgroundColor: '#E41F13', opacity: 0.4 }}
       />
       <div
         className="absolute top-1/2 right-8 md:right-16 -translate-y-1/2"
-        style={{ width: '1px', height: '120px', backgroundColor: '#c9a84c', opacity: 0.4 }}
+        style={{ width: '1px', height: '120px', backgroundColor: '#E41F13', opacity: 0.4 }}
       />
 
       {/* Content */}
@@ -52,21 +52,21 @@ export default function HeroSection() {
 
         {/* Gold divider */}
         <div className="flex items-center justify-center gap-4 mb-8">
-          <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} />
+          <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} />
           <div
             style={{
               width: '6px',
               height: '6px',
-              backgroundColor: '#c9a84c',
+              backgroundColor: '#E41F13',
               transform: 'rotate(45deg)',
             }}
           />
-          <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} />
+          <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} />
         </div>
 
         {/* Title */}
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-7xl lg:text-8xl font-light tracking-wide mb-6 leading-tight"
         >
           {t('title')}
@@ -74,12 +74,12 @@ export default function HeroSection() {
 
         {/* Gold divider */}
         <div className="flex items-center justify-center gap-4 mb-8">
-          <div style={{ width: '80px', height: '1px', backgroundColor: '#c9a84c' }} />
+          <div style={{ width: '80px', height: '1px', backgroundColor: '#E41F13' }} />
         </div>
 
         {/* Tagline */}
         <p
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-xl md:text-2xl font-light italic text-white/75 mb-12 tracking-wide"
         >
           {t('tagline')}
@@ -89,8 +89,8 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href={`/${locale}/golf/green-fees`}
-            style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
-            className="px-8 py-4 text-sm font-medium tracking-[0.12em] uppercase hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
+            style={{ backgroundColor: '#E41F13', color: '#ffffff' }}
+            className="px-8 py-4 text-sm font-bold tracking-[0.12em] uppercase hover:opacity-90 transition-all duration-300 hover:-translate-y-0.5"
           >
             {t('cta')}
           </Link>
@@ -107,7 +107,7 @@ export default function HeroSection() {
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <div
           className="w-px animate-bounce"
-          style={{ height: '40px', backgroundColor: '#c9a84c', opacity: 0.6 }}
+          style={{ height: '40px', backgroundColor: '#E41F13', opacity: 0.6 }}
         />
       </div>
     </section>

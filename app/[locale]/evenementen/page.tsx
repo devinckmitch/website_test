@@ -68,18 +68,18 @@ function EventsPageContent() {
     <div className="min-h-screen">
       {/* Hero */}
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-center text-white"
       >
-        <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-6">
+        <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-6">
           Royal Zoute Golf Club
         </p>
         <div
-          style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+          style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
           className="mx-auto mb-8"
         />
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-6xl font-light mb-6"
         >
           {t('title')}
@@ -88,7 +88,7 @@ function EventsPageContent() {
       </div>
 
       {/* Events list */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-24">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6">
             {sampleEvents.map((event) => (
@@ -98,11 +98,11 @@ function EventsPageContent() {
               >
                 {/* Date */}
                 <div
-                  style={{ borderColor: '#c9a84c', borderWidth: '1px', minWidth: '100px' }}
+                  style={{ borderColor: '#E41F13', borderWidth: '1px', minWidth: '100px' }}
                   className="border p-4 text-center"
                 >
                   <div
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-3xl font-light leading-none"
                   >
                     {new Date(event.date).getDate()}
@@ -113,7 +113,7 @@ function EventsPageContent() {
                       { month: 'short' }
                     )}
                   </div>
-                  <div style={{ color: '#c9a84c' }} className="text-xs mt-1">
+                  <div style={{ color: '#E41F13' }} className="text-xs mt-1">
                     {new Date(event.date).getFullYear()}
                   </div>
                 </div>
@@ -121,13 +121,13 @@ function EventsPageContent() {
                 {/* Content */}
                 <div className="flex-1">
                   <div
-                    style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
+                    style={{ backgroundColor: '#E41F13', color: '#ffffff' }}
                     className="inline-block text-xs px-3 py-1 tracking-widest uppercase mb-3"
                   >
                     {event.type}
                   </div>
                   <h2
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-2xl font-light mb-2"
                   >
                     {getTitle(event)}
@@ -142,8 +142,8 @@ function EventsPageContent() {
                 <div className="flex-shrink-0">
                   <a
                     href="#"
-                    style={{ color: '#1a3d2b', borderColor: '#1a3d2b' }}
-                    className="border px-6 py-2 text-xs font-medium tracking-widest uppercase hover:bg-[#1a3d2b] hover:text-white transition-all duration-200 block text-center"
+                    style={{ color: '#111111', borderColor: '#111111' }}
+                    className="border px-6 py-2 text-xs font-medium tracking-widest uppercase hover:bg-[#111111] hover:text-white transition-all duration-200 block text-center"
                   >
                     Inschrijven
                   </a>

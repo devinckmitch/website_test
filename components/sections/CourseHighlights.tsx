@@ -11,11 +11,11 @@ export default function CourseHighlights() {
         {/* Header */}
         <div className="text-center mb-20">
           <div
-            style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+            style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
             className="mx-auto mb-6"
           />
           <h2
-            style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+            style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
             className="text-4xl md:text-5xl font-light mb-4"
           >
             {t('title')}
@@ -26,7 +26,7 @@ export default function CourseHighlights() {
         {/* Championship course */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 mb-8">
           <div
-            style={{ backgroundColor: '#1a3d2b', minHeight: '400px' }}
+            style={{ backgroundColor: '#111111', minHeight: '400px' }}
             className="flex items-end p-10 relative overflow-hidden"
           >
             {/* Placeholder for course image */}
@@ -34,15 +34,15 @@ export default function CourseHighlights() {
               className="absolute inset-0"
               style={{
                 background:
-                  'linear-gradient(180deg, #2d5a3d 0%, #1a3d2b 100%)',
+                  'linear-gradient(180deg, #1a1a1a 0%, #111111 100%)',
               }}
             />
             <div className="relative z-10">
-              <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-3">
+              <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-3">
                 {t('championship.par')} · {t('championship.holes')}
               </p>
               <h3
-                style={{ fontFamily: 'Cormorant Garamond, serif' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
                 className="text-white text-4xl font-light"
               >
                 {t('championship.name')}
@@ -50,10 +50,10 @@ export default function CourseHighlights() {
             </div>
           </div>
           <div
-            style={{ backgroundColor: '#f5f0e8' }}
+            style={{ backgroundColor: '#F5F5F5' }}
             className="p-10 flex flex-col justify-center"
           >
-            <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-6" />
+            <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} className="mb-6" />
             <p className="text-gray-600 leading-relaxed mb-6 text-sm">
               {t('championship.description')}
             </p>
@@ -65,7 +65,7 @@ export default function CourseHighlights() {
               ].map(({ label, value }) => (
                 <div key={label} className="text-center">
                   <div
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-3xl font-light"
                   >
                     {value}
@@ -76,8 +76,8 @@ export default function CourseHighlights() {
             </div>
             <Link
               href={`/${locale}/golf`}
-              style={{ color: '#1a3d2b', borderColor: '#1a3d2b' }}
-              className="border inline-block px-6 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:bg-[#1a3d2b] hover:text-white transition-all duration-300 self-start"
+              style={{ color: '#111111', borderColor: '#111111' }}
+              className="border inline-block px-6 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:bg-[#111111] hover:text-white transition-all duration-300 self-start"
             >
               Meer info
             </Link>
@@ -87,10 +87,10 @@ export default function CourseHighlights() {
         {/* Executive course */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
           <div
-            style={{ backgroundColor: '#f5f0e8' }}
+            style={{ backgroundColor: '#F5F5F5' }}
             className="p-10 flex flex-col justify-center order-2 lg:order-1"
           >
-            <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-6" />
+            <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} className="mb-6" />
             <p className="text-gray-600 leading-relaxed mb-6 text-sm">
               {t('executive.description')}
             </p>
@@ -102,7 +102,7 @@ export default function CourseHighlights() {
               ].map(({ label, value }) => (
                 <div key={label} className="text-center">
                   <div
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-3xl font-light"
                   >
                     {value}
@@ -113,28 +113,28 @@ export default function CourseHighlights() {
             </div>
             <Link
               href={`/${locale}/golf`}
-              style={{ color: '#1a3d2b', borderColor: '#1a3d2b' }}
-              className="border inline-block px-6 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:bg-[#1a3d2b] hover:text-white transition-all duration-300 self-start"
+              style={{ color: '#111111', borderColor: '#111111' }}
+              className="border inline-block px-6 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:bg-[#111111] hover:text-white transition-all duration-300 self-start"
             >
               Meer info
             </Link>
           </div>
           <div
-            style={{ backgroundColor: '#2d5a3d', minHeight: '400px' }}
+            style={{ backgroundColor: '#1a1a1a', minHeight: '400px' }}
             className="flex items-end p-10 relative overflow-hidden order-1 lg:order-2"
           >
             <div
               className="absolute inset-0"
               style={{
-                background: 'linear-gradient(180deg, #3d7a52 0%, #2d5a3d 100%)',
+                background: 'linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%)',
               }}
             />
             <div className="relative z-10">
-              <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-3">
+              <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-3">
                 {t('executive.par')} · {t('executive.holes')}
               </p>
               <h3
-                style={{ fontFamily: 'Cormorant Garamond, serif' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
                 className="text-white text-4xl font-light"
               >
                 {t('executive.name')}

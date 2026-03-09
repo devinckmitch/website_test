@@ -16,16 +16,16 @@ function HotelPageContent() {
     <div className="min-h-screen">
       {/* Hero */}
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-center text-white"
       >
-        <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-6">Knokke · België</p>
+        <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-6">Knokke · België</p>
         <div
-          style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+          style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
           className="mx-auto mb-8"
         />
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-6xl font-light mb-6"
         >
           {t('title')}
@@ -34,16 +34,16 @@ function HotelPageContent() {
       </div>
 
       {/* Main content */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-24">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
             <div>
-              <p style={{ color: '#c9a84c' }} className="text-xs tracking-[0.3em] uppercase mb-4">
+              <p style={{ color: '#E41F13' }} className="text-xs tracking-[0.3em] uppercase mb-4">
                 Inclusief Green Fee
               </p>
-              <div style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-6" />
+              <div style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }} className="mb-6" />
               <h2
-                style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                 className="text-4xl font-light mb-6"
               >
                 Een onvergetelijk golfarrangement
@@ -52,11 +52,11 @@ function HotelPageContent() {
                 {t('description')}
               </p>
               <div
-                style={{ borderColor: '#c9a84c', borderWidth: '1px' }}
+                style={{ borderColor: '#E41F13', borderWidth: '1px' }}
                 className="border p-6 mb-8"
               >
                 <div
-                  style={{ fontFamily: 'Cormorant Garamond, serif', color: '#c9a84c' }}
+                  style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#E41F13' }}
                   className="text-lg font-light mb-2"
                 >
                   ✓ {t('benefit')}
@@ -67,17 +67,17 @@ function HotelPageContent() {
               </div>
               <a
                 href="mailto:hotel@rzgc.be"
-                style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
+                style={{ backgroundColor: '#E41F13', color: '#111111' }}
                 className="inline-block px-8 py-3 text-xs font-medium tracking-[0.1em] uppercase hover:opacity-90 transition-opacity"
               >
                 {t('bookRoom')}
               </a>
             </div>
             <div
-              style={{ backgroundColor: '#1a3d2b', minHeight: '450px' }}
+              style={{ backgroundColor: '#111111', minHeight: '450px' }}
               className="flex items-center justify-center"
             >
-              <p style={{ fontFamily: 'Cormorant Garamond, serif', color: '#c9a84c', opacity: 0.3 }} className="text-6xl font-light">
+              <p style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#E41F13', opacity: 0.3 }} className="text-6xl font-light">
                 Hotel
               </p>
             </div>
@@ -87,7 +87,7 @@ function HotelPageContent() {
           <div>
             <div className="text-center mb-12">
               <h2
-                style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                 className="text-3xl font-light"
               >
                 Onze Kamers & Suites
@@ -100,27 +100,27 @@ function HotelPageContent() {
                 { type: 'Suite', size: '55m²', features: ['Panoramisch zicht', 'Woonkamer', 'Premium amenities'] },
               ].map(({ type, size, features }) => (
                 <div key={type} className="bg-white p-8 shadow-sm">
-                  <div style={{ width: '30px', height: '1px', backgroundColor: '#c9a84c' }} className="mb-6" />
+                  <div style={{ width: '30px', height: '1px', backgroundColor: '#E41F13' }} className="mb-6" />
                   <h3
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-xl font-light mb-1"
                   >
                     {type}
                   </h3>
-                  <p style={{ color: '#c9a84c' }} className="text-xs tracking-widest mb-4">
+                  <p style={{ color: '#E41F13' }} className="text-xs tracking-widest mb-4">
                     {size}
                   </p>
                   <ul className="space-y-2">
                     {features.map((f) => (
                       <li key={f} className="text-gray-400 text-xs flex items-center gap-2">
-                        <span style={{ color: '#c9a84c' }}>—</span> {f}
+                        <span style={{ color: '#E41F13' }}>—</span> {f}
                       </li>
                     ))}
                   </ul>
                   <div className="mt-6 pt-6 border-t border-gray-100">
                     <a
                       href="mailto:hotel@rzgc.be"
-                      style={{ color: '#1a3d2b' }}
+                      style={{ color: '#111111' }}
                       className="text-xs font-medium tracking-widest uppercase hover:opacity-70 transition-opacity"
                     >
                       Beschikbaarheid →
@@ -134,14 +134,14 @@ function HotelPageContent() {
       </section>
 
       {/* Package CTA */}
-      <section style={{ backgroundColor: '#1a3d2b' }} className="py-20">
+      <section style={{ backgroundColor: '#111111' }} className="py-20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <div
-            style={{ width: '40px', height: '1px', backgroundColor: '#c9a84c' }}
+            style={{ width: '40px', height: '1px', backgroundColor: '#E41F13' }}
             className="mx-auto mb-8"
           />
           <h2
-            style={{ fontFamily: 'Cormorant Garamond, serif', color: 'white' }}
+            style={{ fontFamily: 'FreightNeo, Georgia, serif', color: 'white' }}
             className="text-4xl font-light mb-6"
           >
             Golfarrangement op maat
@@ -151,7 +151,7 @@ function HotelPageContent() {
           </p>
           <a
             href="mailto:info@rzgc.be"
-            style={{ backgroundColor: '#c9a84c', color: '#1c1c1c' }}
+            style={{ backgroundColor: '#E41F13', color: '#111111' }}
             className="inline-block px-10 py-4 text-xs font-medium tracking-[0.12em] uppercase hover:opacity-90 transition-opacity"
           >
             Arrangement aanvragen

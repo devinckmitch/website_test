@@ -20,7 +20,7 @@ export default async function NewsArticlePage({
   return (
     <div className="min-h-screen">
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-white"
       >
         <div className="max-w-4xl mx-auto">
@@ -31,11 +31,11 @@ export default async function NewsArticlePage({
             ← Terug naar nieuws
           </Link>
           <div
-            style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+            style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
             className="mb-8"
           />
           <h1
-            style={{ fontFamily: 'Cormorant Garamond, serif' }}
+            style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
             className="text-4xl md:text-5xl font-light leading-tight"
           >
             {slug.replace(/-/g, ' ')}
@@ -43,7 +43,7 @@ export default async function NewsArticlePage({
         </div>
       </div>
 
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-20">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <p className="text-gray-500 text-sm leading-relaxed">
             Dit artikel wordt geladen vanuit het Payload CMS. Voeg artikelen toe via{' '}

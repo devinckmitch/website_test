@@ -9,10 +9,10 @@ const facilityLinks: Record<string, string> = {
 }
 
 const facilityColors = [
-  { bg: '#1a3d2b', accent: '#c9a84c' },
-  { bg: '#2d5a3d', accent: '#d4b96a' },
-  { bg: '#3d7a52', accent: '#c9a84c' },
-  { bg: '#1c1c1c', accent: '#c9a84c' },
+  { bg: '#111111', accent: '#E41F13' },
+  { bg: '#1a1a1a', accent: '#cc1a0f' },
+  { bg: '#2a2a2a', accent: '#E41F13' },
+  { bg: '#111111', accent: '#E41F13' },
 ]
 
 export default function FacilitiesGrid() {
@@ -22,16 +22,16 @@ export default function FacilitiesGrid() {
   const facilities = ['hotel', 'restaurant', 'proShop', 'drivingRange'] as const
 
   return (
-    <section style={{ backgroundColor: '#1c1c1c' }} className="py-24">
+    <section style={{ backgroundColor: '#111111' }} className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <div
-            style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+            style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
             className="mx-auto mb-6"
           />
           <h2
-            style={{ fontFamily: 'Cormorant Garamond, serif', color: 'white' }}
+            style={{ fontFamily: 'FreightNeo, Georgia, serif', color: 'white' }}
             className="text-4xl md:text-5xl font-light mb-4"
           >
             {t('title')}
@@ -50,7 +50,7 @@ export default function FacilitiesGrid() {
             >
               {/* Number */}
               <div
-                style={{ color: facilityColors[i].accent, fontFamily: 'Cormorant Garamond, serif' }}
+                style={{ color: facilityColors[i].accent, fontFamily: 'FreightNeo, Georgia, serif' }}
                 className="text-5xl font-light mb-6 opacity-30"
               >
                 0{i + 1}
@@ -65,7 +65,7 @@ export default function FacilitiesGrid() {
               {/* Name */}
               <h3
                 style={{
-                  fontFamily: 'Cormorant Garamond, serif',
+                  fontFamily: 'FreightNeo, Georgia, serif',
                   color: facilityColors[i].accent,
                 }}
                 className="text-xl font-light mb-3"

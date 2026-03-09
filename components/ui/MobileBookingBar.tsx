@@ -19,12 +19,12 @@ export default function MobileBookingBar() {
 
   return (
     <div
-      style={{ backgroundColor: '#c9a84c', zIndex: 40 }}
+      style={{ backgroundColor: '#E41F13', zIndex: 40 }}
       className="fixed bottom-0 left-0 right-0 md:hidden py-4 px-4"
     >
       <Link
         href={`/${locale}/golf/green-fees`}
-        style={{ backgroundColor: '#1a3d2b', color: 'white' }}
+        style={{ backgroundColor: '#111111', color: 'white' }}
         className="block text-center py-3 text-sm font-medium tracking-[0.1em] uppercase"
       >
         {t('bookNow')} →

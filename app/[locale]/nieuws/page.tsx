@@ -50,18 +50,18 @@ function NewsPageContent() {
     <div className="min-h-screen">
       {/* Hero */}
       <div
-        style={{ backgroundColor: '#1a3d2b' }}
+        style={{ backgroundColor: '#111111' }}
         className="pt-32 pb-20 px-4 text-center text-white"
       >
-        <p className="text-[#c9a84c] text-xs tracking-[0.3em] uppercase mb-6">
+        <p className="text-[#E41F13] text-xs tracking-[0.3em] uppercase mb-6">
           Royal Zoute Golf Club
         </p>
         <div
-          style={{ width: '50px', height: '1px', backgroundColor: '#c9a84c' }}
+          style={{ width: '50px', height: '1px', backgroundColor: '#E41F13' }}
           className="mx-auto mb-8"
         />
         <h1
-          style={{ fontFamily: 'Cormorant Garamond, serif' }}
+          style={{ fontFamily: 'FreightNeo, Georgia, serif' }}
           className="text-5xl md:text-6xl font-light mb-6"
         >
           {t('title')}
@@ -70,7 +70,7 @@ function NewsPageContent() {
       </div>
 
       {/* News grid */}
-      <section style={{ backgroundColor: '#f5f0e8' }} className="py-24">
+      <section style={{ backgroundColor: '#F5F5F5' }} className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sampleNews.map((article) => (
@@ -81,11 +81,11 @@ function NewsPageContent() {
               >
                 {/* Image placeholder */}
                 <div
-                  style={{ backgroundColor: '#1a3d2b', height: '200px' }}
+                  style={{ backgroundColor: '#111111', height: '200px' }}
                   className="flex items-center justify-center overflow-hidden"
                 >
                   <div
-                    style={{ color: '#c9a84c', opacity: 0.2, fontFamily: 'Cormorant Garamond, serif' }}
+                    style={{ color: '#E41F13', opacity: 0.2, fontFamily: 'FreightNeo, Georgia, serif' }}
                     className="text-4xl font-light"
                   >
                     RZGC
@@ -101,18 +101,18 @@ function NewsPageContent() {
                     )}
                   </p>
                   <div
-                    style={{ width: '30px', height: '1px', backgroundColor: '#c9a84c' }}
+                    style={{ width: '30px', height: '1px', backgroundColor: '#E41F13' }}
                     className="mb-4 group-hover:w-16 transition-all duration-300"
                   />
                   <h2
-                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#1a3d2b' }}
+                    style={{ fontFamily: 'FreightNeo, Georgia, serif', color: '#111111' }}
                     className="text-xl font-light mb-3 leading-snug"
                   >
                     {getTitle(article)}
                   </h2>
                   <p className="text-gray-500 text-xs leading-relaxed mb-4">{article.excerpt}</p>
                   <span
-                    style={{ color: '#1a3d2b' }}
+                    style={{ color: '#111111' }}
                     className="text-xs font-medium tracking-widest uppercase group-hover:opacity-70 transition-opacity"
                   >
                     {t('readMore')} →
